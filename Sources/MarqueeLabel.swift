@@ -270,6 +270,9 @@ open class MarqueeLabel: UILabel, CAAnimationDelegate {
             speed = .rate(newValue)
         }
     }
+    
+    //for add size
+    public var isAddedSize: Bool = false
 
     
     /**
